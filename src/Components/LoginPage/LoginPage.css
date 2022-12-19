@@ -39,7 +39,8 @@
   } 
 
   input{
-      width: 300px;
+    min-width: 25rem;
+    width:75%;
       height: 50px;
       border-radius: 60px;
       box-shadow: inset 0px 0px 25px 0px #888;
@@ -65,7 +66,8 @@
   }
 
   button{
-      width: 380px;
+    min-width: 10rem;
+    width:75%;
       height: 50px;
       border-radius: 60px;
       background-color: #b103fc;
@@ -81,5 +83,9 @@
   .link{
       font-size: 25px;
       font-weight: 400;
+  }
+.signin:hover{
+    cursor: pointer;
+    
   }
   

@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <LoginPage></LoginPage>
-
+<Register></Register>
 
     </div>
   );

@@ -18,14 +18,12 @@ function LoginPage() {
            <h1>Login Page</h1>
            <div>
              
-             <input type="text" placeholder="user name" className="name"/>
+             <input type="email" placeholder="Email" className="name"/>
+             <input type="password" placeholder="Password" className="name"/>
            </div>
-           <div className="second-input">
-             
-             <input type="password" placeholder="user name" className="name"/>
-           </div>
+           
           <div className="login-button">
-          <button>Login</button>
+          <button className='signin'>Login</button>
           </div>
            
            
